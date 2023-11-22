@@ -1,0 +1,58 @@
+.mainServices{
+    margin-top: 50px;
+    margin-left: 480px;
+    /* width: 500px;
+    height: 200px; */
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    .choosePac{
+        margin-left: 200px;
+    }
+    .class{
+        width: 500px;
+        height: 170px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+        background-color: aliceblue;
+        align-items: center;
+        border-radius: 20px;
+        border: 0.5px solid white;
+        gap: 10px;
+        .pacTitle{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .pacDetails{
+           padding-bottom: 5px;
+           font-size: 12px;
+           font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        &:hover{
+            background-color: white;
+            border: 0.5px solid gray;
+        }
+        .charge{
+            padding:5px;
+            
+            border-radius: 10px;
+            background-color: rgb(165, 252, 162);
+        }
+    }
+}
+
+.childInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    color: rgb(22, 171, 141);
+    .h5{
+       margin-left: 15px;
+       color: rgb(90, 194, 107);
+    }
+}
